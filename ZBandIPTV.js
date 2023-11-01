@@ -1,6 +1,6 @@
 /*
 
-Macro for controlling a Z-band IPTV decoder device through the Z-TV server. 
+Macro for controlling a Z-and IPTV decoder device through the Z-TV server. 
 
 https://github.com/vtjoeh/z-band-iptv
 
