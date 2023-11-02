@@ -20,9 +20,9 @@ Touch panel Navigtor <--> Cisco Video Device <--> Z-TV Server <--> Z-Band Decode
 \
 **Recommended Settings on Cisco Video Device**
 The following additional settings are recommended but not required.
-- Settings --> Configurations --> Video / Input --> Connector # --> InputSourceType: "mediaplayer"
-- Settings --> Configurations --> Video / Input --> Connector # --> PresentationSelection: "Manual"
-- Settings --> Configurations --> Video / Input --> Connector # --> Visibility: "Never"
+- Settings -> Configurations -> Video / Input -> Connector # -> InputSourceType: "mediaplayer"
+- Settings -> Configurations -> Video / Input -> Connector # -> PresentationSelection: "Manual"
+- Settings -> Configurations -> Video / Input -> Connector # -> Visibility: "Never"
 \
 \
 **Screenshots:** 
