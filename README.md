@@ -1,5 +1,5 @@
 # z-band-iptv
-Cisco Navigator control of a Z-Band IPTV decoder via Z-TV Server
+Purpose: Cisco Navigator control of a Z-Band IPTV decoder via Z-TV Server
 
 Requires the video device support HDCP.  
 HDMI Input 2: Codec Plus, Room 55 Dual, Room 70 Dual, Room 70 Single 
