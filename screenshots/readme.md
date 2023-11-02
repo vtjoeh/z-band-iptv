@@ -1,5 +1,5 @@
 ![Navigator button](https://github.com/vtjoeh/z-band-iptv/assets/16569532/14ed3f8d-7b88-4ea0-8475-76e1b3872a9b)
-Cisco Navigator Touch Panel screenshot of Z-Band IPTV button
+Cisco Navigator Touch Panel home screenshot **TV button** for Z-Band IPTV. 
 \
 \
 \
@@ -45,8 +45,25 @@ Example of **All Channels** tab scroll.
 \
 \
 ![Main Keys Tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/99aac47c-130f-45d6-9e80-9e7277c1913e)
+**Z-Band Remote** panel **Main Keys Tab.** Volume buttons on this page control the Z-Band decoder volume, unlike the default page volume buttons which control the Cisco video device volume.  
+\
+\
+\
 ![keys tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/f8773dd1-10a6-4641-924f-083f96dc7fe0)
+**Z-Band Remote** panel **Keys Tab** 
+\
+\
+\
+\
 ![EndPoint tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/0241c711-6418-4024-93e2-129c42699969)
+**Z-Band Remote** panel **End-Point tab**
+\
+\
+\
+\
+
+Below is the **Z-Band Remote** panel with the emulated **Full IR Remote** in scrollable format. 
+
 ![Full IR Remote](https://github.com/vtjoeh/z-band-iptv/assets/16569532/dd683075-7328-441a-8efd-f191b32febee)
 ![full IR remote 2](https://github.com/vtjoeh/z-band-iptv/assets/16569532/0f65080c-04e8-4b28-9355-22602e8a7bea)
 ![full ir remote 3](https://github.com/vtjoeh/z-band-iptv/assets/16569532/b301b1c2-8928-4697-b49c-6c90dfe22aa7)
