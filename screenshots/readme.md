@@ -4,7 +4,7 @@ Cisco Navigator Touch Panel screenshot of Z-Band IPTV button
 \
 \
 ![Default tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/a835582e-1cdb-4cd9-96e6-f33d627dcfc5)
-Default page with up to ten "favorites" from a Content Group, volume buttons and Encoder Standby. 
+**Default tab** shown with up to ten "favorites" from a Z-TV Content Group. 
 Volume buttons on this page control the Cisco video device volume.  The 'TV Off' button puts the decoder in standby mode. 
 \
 \
@@ -15,7 +15,7 @@ The **All Channels** tab allows for a all channels to be shown in a scrollable a
 \
 \
 ![All Channels scroll](https://github.com/vtjoeh/z-band-iptv/assets/16569532/bfcccf4d-b5b4-4e1d-a2dd-4b96fd350fed)
-**All Channels** tab scroll. 
+Example of **All Channels** tab scroll. 
 \
 \
 \
@@ -24,7 +24,13 @@ The **All Channels** tab allows for a all channels to be shown in a scrollable a
 \
 \
 \
+![search results](https://github.com/vtjoeh/z-band-iptv/assets/16569532/f15903e8-0943-40b2-ba29-212946fadb26)
+**All Channels** example search results. 
+\
+\
+\
+![aboutpage 1](https://github.com/vtjoeh/z-band-iptv/assets/16569532/16a83815-ea22-4124-8260-95c0b2810cd1)
 
 
 
-
+as
