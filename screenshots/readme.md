@@ -30,7 +30,29 @@ Example of **All Channels** tab scroll.
 \
 \
 ![aboutpage 1](https://github.com/vtjoeh/z-band-iptv/assets/16569532/16a83815-ea22-4124-8260-95c0b2810cd1)
+**About Tab**
+\
+\
+\
+![about page 2](https://github.com/vtjoeh/z-band-iptv/assets/16569532/34752433-10d4-449e-9ff4-44bc9536c569)
+**About Tab** showing **Show Remote** and **Hide Remote** buttons. 
+\
+\
+\
+![Z-Band remote home](https://github.com/vtjoeh/z-band-iptv/assets/16569532/93af1414-5b64-4724-b9c4-fe296f92efe9)
+**Home screeb** with **TV** button and **Z-Band-Remote** button
+\
+\
+\
+![Main Keys Tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/99aac47c-130f-45d6-9e80-9e7277c1913e)
+![keys tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/f8773dd1-10a6-4641-924f-083f96dc7fe0)
+![EndPoint tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/0241c711-6418-4024-93e2-129c42699969)
+![Full IR Remote](https://github.com/vtjoeh/z-band-iptv/assets/16569532/dd683075-7328-441a-8efd-f191b32febee)
+![full IR remote 2](https://github.com/vtjoeh/z-band-iptv/assets/16569532/0f65080c-04e8-4b28-9355-22602e8a7bea)
+![full ir remote 3](https://github.com/vtjoeh/z-band-iptv/assets/16569532/b301b1c2-8928-4697-b49c-6c90dfe22aa7)
+![full IR Remote 4](https://github.com/vtjoeh/z-band-iptv/assets/16569532/437c86d6-b6f3-48d8-bd6a-df76f67ded11)
 
 
 
-as
+
+
