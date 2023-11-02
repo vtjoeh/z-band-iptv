@@ -2,17 +2,17 @@
 **Purpose:** Cisco Navigator control of a Z-Band IPTV decoder via Z-TV Server
 
 Requires the Cisco video device support HDCP, which includes the following devices:  \
-HDMI Input 2: Codec Plus, Room 55 Dual, Room 70 Dual, Room 70 Single \
-HDMI Input 3: Board Pro 55, Board Pro 75, Codec EQ (Room Kit EQ & Room Kit EQX), Room 55 \
-HDMI Input 5: Codec Pro (Room Kit Pro), Room 70 Dual G2, Room 70 Panorama, Room 70 Single G2, Room Panorama 
+**HDMI Input 2:** Codec Plus, Room 55 Dual, Room 70 Dual, Room 70 Single \
+**HDMI Input 3:** Board Pro 55, Board Pro 75, Codec EQ (Room Kit EQ & Room Kit EQX), Room 55 \
+**HDMI Input 5:** Codec Pro (Room Kit Pro), Room 70 Dual G2, Room 70 Panorama, Room 70 Single G2, Room Panorama 
 
-For more info see [roomos.cisco.com](https://roomos.cisco.com/xapi/search?domain=Video&search=hdcp) and search for HDCP
+For more info on HDCP for Cisco video devcies see [roomos.cisco.com](https://roomos.cisco.com/xapi/search?domain=Video&search=hdcp) and search for HDCP
 
 **Flow:** \
 Touch panel Navigtor <--> Cisco Video Device <--> Z-TV Server <--> Z-Band Decoder
 
 **Testing Environment:**
-- Cisco Device: RoomOS 11.9.1.13 (not all above devices tested) 
+- Cisco Device: RoomOS 11.9.1.13 (not all Cisco listed video devices tested) 
 - Z-BAND [Z-IP Decode 400](https://www.z-band.com/products/z-ip-systems/z-ip-decode/z-ip-decode-400) 
 - Z-Server - IPTV Portal: 8.2.0.1197  
 - 40 Static Channels downloading and search.  
