@@ -13,14 +13,10 @@ For more info on HDCP for Cisco video devcies see [roomos.cisco.com](https://roo
 Touch panel Navigtor <--> Cisco Video Device <--> Z-TV Server <--> Z-Band Decoder
 \
 \
-\
-
 **Connections**
 Z-Band Decoder HDMI Out --> Cisco Video Device HDMI IN (HDCP supported interface)
 \
 \
-\
-
 **Testing Environment:**
 - Cisco Device: RoomOS 11.9.1.13 (not all Cisco listed video devices tested) 
 - Z-BAND [Z-IP Decode 400](https://www.z-band.com/products/z-ip-systems/z-ip-decode/z-ip-decode-400) 
