@@ -29,13 +29,15 @@ Example of **TV panel** -> **All Channels** tab after clicking the **filter** bu
 \
 \
 \
-![aboutpage 1](https://github.com/vtjoeh/z-band-iptv/assets/16569532/16a83815-ea22-4124-8260-95c0b2810cd1)
-**TV panel** -> **About Tab** shows useful information if the Macro is talking to to Z-TV Server. 
+![AboutTab1](https://github.com/vtjoeh/z-band-iptv/assets/16569532/6a89db52-853e-4fc5-8197-bff5b22e34e0)
+**TV panel** -> **About Tab** shows useful information if the Macro is talking to to Z-TV Server. \ 
+**Note:** The macro only talks to the Z-Band server that queues requests for the decoder.  If the decoder is not reachable, \
+the Cisco video device will not know - but the end user will notice. 
 \
 \
 \
-![about page 2](https://github.com/vtjoeh/z-band-iptv/assets/16569532/34752433-10d4-449e-9ff4-44bc9536c569)
-**TV panel** -> **About Tab** showing **Show Remote** and **Hide Remote** buttons. Clicking the **Show Remote** button will add a new button to the Navigator homescree, the **Z-Band Remote** button. 
+![AboutTab2HideRemote](https://github.com/vtjoeh/z-band-iptv/assets/16569532/886d6964-7740-4549-bc4d-b138c2405cdb)
+**TV panel** -> **About Tab** showing **Show Remote** and **Hide Remote** buttons. Clicking the **Show Remote** button will add a new button to the Navigator homescreen, the **Z-Band Remote** button. If only the ZBandIPTV.js file is loaded to the Cisco video device (no ZBandIPTV.xml file used) the **TV Panel** button will still be created and function.  However, the **About** tab will show incorrect information until the macro is restarted 1 time (or device rebooted). To use the **Z-Band Remote** button, make sure the ZBandIPTV.xml file is also loaded.  The **Z-Band Remote** button is **not** visible by default on install. 
 \
 \
 \
