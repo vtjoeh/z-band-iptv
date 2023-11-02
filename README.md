@@ -16,6 +16,9 @@ Touch panel Navigtor <--> Cisco Video Device <--> Z-TV Server <--> Z-Band Decode
 - Z-BAND [Z-IP Decode 400](https://www.z-band.com/products/z-ip-systems/z-ip-decode/z-ip-decode-400) 
 - Z-Server - IPTV Portal: 8.2.0.1197  
 - 40 Static Channels downloading and search.  
+
+**Screenshots:** 
+See [all screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots)
 \
 \
 \
@@ -29,7 +32,6 @@ All channels are shown in a scrollable and searchable window.
 \
 \
 \
-![Full IR Remote](https://github.com/vtjoeh/z-band-iptv/assets/16569532/17a3217c-5624-4246-a861-31fba88119b8)
-IR Remote simulated buttons which are hidden by default. 
 
-See all screenshots at [/screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots)
+See [more screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots)
+
