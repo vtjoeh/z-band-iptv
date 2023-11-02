@@ -30,7 +30,7 @@ Example of **TV panel** -> **All Channels** tab after clicking the **filter** bu
 \
 \
 ![AboutTab1](https://github.com/vtjoeh/z-band-iptv/assets/16569532/6a89db52-853e-4fc5-8197-bff5b22e34e0)
-**TV panel** -> **About Tab** shows useful information if the Macro is talking to to Z-TV Server. \ 
+**TV panel** -> **About Tab** shows useful information if the Macro is talking to the Z-TV Server.  
 **Note:** The macro only talks to the Z-Band server that queues requests for the decoder.  If the decoder is not reachable, \
 the Cisco video device will not know - but the end user will notice. 
 \
