@@ -25,6 +25,8 @@ The following additional settings are recommended but not required.
 - Settings -> Configurations -> Video / Input -> Connector # -> Visibility: "Never"
 \
 \
+\
+
 **Screenshots:** 
 See [all screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots)
 \
