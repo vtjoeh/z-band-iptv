@@ -1,7 +1,8 @@
 # z-band-iptv
 **Purpose:** Cisco Navigator control of a Z-Band IPTV decoder via Z-TV Server
 
-Requires the Cisco video device support HDCP, which includes the following devices:  \
+This macro assumes the Z-Band IPTV decoder is connected via HDMI to the Cisco video device \
+Which requires the Cisco video device input to support HDCP, which includes the following devices:  \
 **HDMI Input 2:** Codec Plus, Room 55 Dual, Room 70 Dual, Room 70 Single \
 **HDMI Input 3:** Board Pro 55, Board Pro 75, Codec EQ (Room Kit EQ & Room Kit EQX), Room 55 \
 **HDMI Input 5:** Codec Pro (Room Kit Pro), Room 70 Dual G2, Room 70 Panorama, Room 70 Single G2, Room Panorama 
