@@ -47,7 +47,7 @@ For more details see the notes in the .js file.
 \
 \
 **Screenshots:** 
-See [all screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots)
+See [all screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots) for more details. 
 \
 \
 \
@@ -61,5 +61,5 @@ All channels are shown in a scrollable and searchable window.
 \
 \
 \
-See [all screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots)
+See [all screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots) for more details. 
 
