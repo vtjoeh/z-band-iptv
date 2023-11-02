@@ -8,7 +8,7 @@ Requires the Cisco video device support HDCP, which includes the following devic
 
 For more info on HDCP for Cisco video devcies see [roomos.cisco.com](https://roomos.cisco.com/xapi/search?domain=Video&search=hdcp) and search for HDCP
 
-**Flow:** \
+**Communication Flow:** \
 Touch panel Navigtor <--> Cisco Video Device <--> Z-TV Server <--> Z-Band Decoder
 
 **Testing Environment:**
