@@ -32,7 +32,7 @@ The following additional settings are recommended but not required:
 - Settings -> Configurations -> Video / Input -> Connector # -> InputSourceType: "mediaplayer"
 - Settings -> Configurations -> Video / Input -> Connector # -> PresentationSelection: "Manual"
 - Settings -> Configurations -> Video / Input -> Connector # -> Visibility: "Never"
-\
+
 
 **Large Deployments** \
 Several settings *optionally* can be placed directly on the codec in the xConfiguration.SytemUnit.CustomDeviceId setting.  This allows the \
