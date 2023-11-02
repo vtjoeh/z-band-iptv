@@ -14,6 +14,7 @@ Touch panel Navigtor <--> Cisco Video Device <--> Z-TV Server <--> Z-Band Decode
 \
 \
 \
+
 **Connections**
 Z-Band Decoder HDMI Out --> Cisco Video Device HDMI IN (HDCP supported interface)
 \
