@@ -15,8 +15,16 @@ Touch panel Navigtor <--> Cisco Video Device <--> Z-TV Server <--> Z-Band Decode
 - Cisco Device: RoomOS 11.9.1.13 (not all Cisco listed video devices tested) 
 - Z-BAND [Z-IP Decode 400](https://www.z-band.com/products/z-ip-systems/z-ip-decode/z-ip-decode-400) 
 - Z-Server - IPTV Portal: 8.2.0.1197  
-- 40 Static Channels downloading and search.  
-
+- 40 Static Channels downloading and search.
+\
+\
+**Recommended Settings on Cisco Video Device**
+The following additional settings are recommended but not required.
+- Settings --> Configurations --> Video / Input --> Connector # --> InputSourceType: "mediaplayer"
+- Settings --> Configurations --> Video / Input --> Connector # --> PresentationSelection: "Manual"
+- Settings --> Configurations --> Video / Input --> Connector # --> Visibility: "Never"
+\
+\
 **Screenshots:** 
 See [all screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots)
 \
