@@ -18,32 +18,34 @@ on an interface that supports HDCP.  \
 
 For more info on HDCP for Cisco video devcies see [roomos.cisco.com](https://roomos.cisco.com/xapi/search?domain=Video&search=hdcp) and search for HDCP
 \
-\
+
 **Testing Environment:** 
 - Cisco Device: RoomOS 11.9.1.13 (not all Cisco listed video devices tested) 
 - Z-BAND [Z-IP Decode 400](https://www.z-band.com/products/z-ip-systems/z-ip-decode/z-ip-decode-400) 
 - Z-Server - IPTV Portal: 8.2.0.1197  
 - 40 Static Channels downloading and search.
 \
-\
+
+
 **Recommended Settings on Cisco Video Device:** \
 The following additional settings are recommended but not required:
 - Settings -> Configurations -> Video / Input -> Connector # -> InputSourceType: "mediaplayer"
 - Settings -> Configurations -> Video / Input -> Connector # -> PresentationSelection: "Manual"
 - Settings -> Configurations -> Video / Input -> Connector # -> Visibility: "Never"
 \
-\
-\
+
 **Large Deployments** \
 Several settings *optionally* can be placed directly on the codec in the xConfiguration.SytemUnit.CustomDeviceId setting.  This allows the \
 same macro to be pushed to all Cisco video devices and unique variables pushed through Control Hub. 
 Web Interface: 
 - Settings -> Configurations ->SystemUnit -> CustomDeviceId
+For example: 
 > ztv_sn="KN5B0B51M0N5555"; ztv_hdmi="3", ztv_fav_chan="Bobs Favorites"
+
 For more details see the notes in the .js file. 
-
-
-
+\
+\
+\
 **Screenshots:** 
 See [all screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots)
 \
