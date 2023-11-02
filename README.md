@@ -10,7 +10,7 @@ Touch panel Navigtor <--> Cisco Video Device <--> Z-TV Server <--> Z-Band Decode
 Z-Band Decoder HDMI Out --> Cisco Video Device HDMI In (HDCP)
 \
 \
-This macro assumes the Z-Band IPTV decoder is connected via HDMI to the Cisco video device \
+The macro assumes the Z-Band IPTV decoder is connected via HDMI to the Cisco video device \
 on an interface that supports HDCP.  \
 - **HDMI Input 2:** Codec Plus, Room 55 Dual, Room 70 Dual, Room 70 Single \
 - **HDMI Input 3:** Board Pro 55, Board Pro 75, Codec EQ (Room Kit EQ & Room Kit EQX), Room 55 \
