@@ -8,7 +8,8 @@ HDMI Input 5: Codec Pro (Room Kit Pro), Room 70 Dual G2, Room 70 Panorama, Room 
 
 For more info see [roomos.cisco.com](https://roomos.cisco.com/xapi/search?domain=Video&search=hdcp) and search for HDCP
 
-Touch panel Navigtor <--> Cisco Video Device <--> Z-TV Server <----> Z-Band Decoder
+**Flow:** \
+Touch panel Navigtor <--> Cisco Video Device <--> Z-TV Server <--> Z-Band Decoder
 
 **Testing Environment:**
 - Cisco Device: RoomOS 11.9.1.13 (not all above devices tested) 
