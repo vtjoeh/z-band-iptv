@@ -15,48 +15,48 @@ The **TV panel** with **All Channels** tab allows for a all channels to be shown
 \
 \
 ![All Channels scroll](https://github.com/vtjoeh/z-band-iptv/assets/16569532/bfcccf4d-b5b4-4e1d-a2dd-4b96fd350fed)
-Example of **TV panel** : **All Channels** tab scroll. 
+Example of **TV panel** -> **All Channels** tab scroll. 
 \
 \
 \
 ![All Channels search](https://github.com/vtjoeh/z-band-iptv/assets/16569532/26d31dfd-5b52-415f-8a5f-9dc5cda1dc5b)
-Example of **TV panel** : **All Channels** tab after clicking the **filter** button. 
+Example of **TV panel** -> **All Channels** tab after clicking the **filter** button. 
 \
 \
 \
 ![search results](https://github.com/vtjoeh/z-band-iptv/assets/16569532/f15903e8-0943-40b2-ba29-212946fadb26)
-**TV panel** : **All Channels** example search results. 
+**TV panel** -> **All Channels** example search results. 
 \
 \
 \
 ![aboutpage 1](https://github.com/vtjoeh/z-band-iptv/assets/16569532/16a83815-ea22-4124-8260-95c0b2810cd1)
-**TV panel** : **About Tab** shows useful information if the Macro is talking to to Z-TV Server. 
+**TV panel** -> **About Tab** shows useful information if the Macro is talking to to Z-TV Server. 
 \
 \
 \
 ![about page 2](https://github.com/vtjoeh/z-band-iptv/assets/16569532/34752433-10d4-449e-9ff4-44bc9536c569)
-**About Tab** showing **Show Remote** and **Hide Remote** buttons. Clicking the **Show Remote** button will add a new button to the Navigator homescree, the **Z-Band Remote** button. 
+**TV panel** -> **About Tab** showing **Show Remote** and **Hide Remote** buttons. Clicking the **Show Remote** button will add a new button to the Navigator homescree, the **Z-Band Remote** button. 
 \
 \
 \
 ![Z-Band remote home](https://github.com/vtjoeh/z-band-iptv/assets/16569532/93af1414-5b64-4724-b9c4-fe296f92efe9)
-**Home screen** with **TV** button and **Z-Band Remote** button.
+**Home screen** with **TV** panel button and **Z-Band Remote** panel button.
 \
 \
 \
 ![Main Keys Tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/99aac47c-130f-45d6-9e80-9e7277c1913e)
-**Z-Band Remote** panel **Main Keys Tab.** Volume buttons on this page control the Z-Band decoder volume, unlike the default page volume buttons which control the Cisco video device volume.  
+**Z-Band Remote** panel -> **Main Keys Tab.** Volume buttons on this page control the Z-Band decoder volume, unlike the default page volume buttons which control the Cisco video device volume.  
 \
 \
 \
 ![keys tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/f8773dd1-10a6-4641-924f-083f96dc7fe0)
-**Z-Band Remote** panel **Keys Tab** 
+**Z-Band Remote** panel -> **Keys Tab** 
 \
 \
 \
 \
 ![EndPoint tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/0241c711-6418-4024-93e2-129c42699969)
-**Z-Band Remote** panel **End-Point tab**
+**Z-Band Remote** panel -> **End-Point tab**
 \
 \
 \
