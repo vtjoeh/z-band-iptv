@@ -32,6 +32,5 @@ All channels are shown in a scrollable and searchable window.
 \
 \
 \
-
-See [more screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots)
+See [all screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots)
 
