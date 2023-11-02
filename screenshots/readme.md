@@ -1,46 +1,46 @@
 ![Navigator button](https://github.com/vtjoeh/z-band-iptv/assets/16569532/14ed3f8d-7b88-4ea0-8475-76e1b3872a9b)
-Cisco Navigator Touch Panel home screenshot **TV button** for Z-Band IPTV. 
+Cisco Navigator Touch Panel home screen with the **TV button** for Z-Band IPTV. Pressing the button: 1) Opens the **TV panel** 2) switches the Cisco video device to start presenting on HDMI IN for the Z-Band decoder 3) Sends an 'EndpointOn' command to the decoder 4) Does a query of the Z-TV Server to update the channels list. 
 \
 \
 \
 ![Default tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/a835582e-1cdb-4cd9-96e6-f33d627dcfc5)
-**Default tab** shown with up to ten "favorites" from a Z-TV Content Group. 
-Volume buttons on this page control the Cisco video device volume.  The 'TV Off' button puts the decoder in standby mode. 
+**TV panel** with **Default tab** shown. Shows first ten "favorites" from a Z-TV Content Group alphabetically sorted.   
+Volume buttons on this page control the Cisco video device volume.  The 'TV Off' button: 1) sends the 'EndpointOff' command to the decoder 2) turns off the HDMI input 3) closes the **TV Panel**  
 \
 \
 \
 ![All Channels tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/f09575a6-1482-45fa-b887-b5bfca20a5e7)
-The **All Channels** tab allows for a all channels to be shown in a scrollable and searchable way. 
+The **TV panel** with **All Channels** tab allows for a all channels to be shown in a scrollable and searchable way. 
 \
 \
 \
 ![All Channels scroll](https://github.com/vtjoeh/z-band-iptv/assets/16569532/bfcccf4d-b5b4-4e1d-a2dd-4b96fd350fed)
-Example of **All Channels** tab scroll. 
+Example of **TV panel** : **All Channels** tab scroll. 
 \
 \
 \
 ![All Channels search](https://github.com/vtjoeh/z-band-iptv/assets/16569532/26d31dfd-5b52-415f-8a5f-9dc5cda1dc5b)
-**All Channels** tab after clicking the **filter** button. 
+Example of **TV panel** : **All Channels** tab after clicking the **filter** button. 
 \
 \
 \
 ![search results](https://github.com/vtjoeh/z-band-iptv/assets/16569532/f15903e8-0943-40b2-ba29-212946fadb26)
-**All Channels** example search results. 
+**TV panel** : **All Channels** example search results. 
 \
 \
 \
 ![aboutpage 1](https://github.com/vtjoeh/z-band-iptv/assets/16569532/16a83815-ea22-4124-8260-95c0b2810cd1)
-**About Tab**
+**TV panel** : **About Tab** shows useful information if the Macro is talking to to Z-TV Server. 
 \
 \
 \
 ![about page 2](https://github.com/vtjoeh/z-band-iptv/assets/16569532/34752433-10d4-449e-9ff4-44bc9536c569)
-**About Tab** showing **Show Remote** and **Hide Remote** buttons. 
+**About Tab** showing **Show Remote** and **Hide Remote** buttons. Clicking the **Show Remote** button will add a new button to the Navigator homescree, the **Z-Band Remote** button. 
 \
 \
 \
 ![Z-Band remote home](https://github.com/vtjoeh/z-band-iptv/assets/16569532/93af1414-5b64-4724-b9c4-fe296f92efe9)
-**Home screeb** with **TV** button and **Z-Band-Remote** button
+**Home screen** with **TV** button and **Z-Band Remote** button.
 \
 \
 \
@@ -62,8 +62,7 @@ Example of **All Channels** tab scroll.
 \
 \
 
-Below is the **Z-Band Remote** panel with the emulated **Full IR Remote** in scrollable format. 
-
+Below is the **Z-Band Remote** panel with the emulated **Full IR Remote** tab in scrollable format. 
 ![Full IR Remote](https://github.com/vtjoeh/z-band-iptv/assets/16569532/dd683075-7328-441a-8efd-f191b32febee)
 ![full IR remote 2](https://github.com/vtjoeh/z-band-iptv/assets/16569532/0f65080c-04e8-4b28-9355-22602e8a7bea)
 ![full ir remote 3](https://github.com/vtjoeh/z-band-iptv/assets/16569532/b301b1c2-8928-4697-b49c-6c90dfe22aa7)
