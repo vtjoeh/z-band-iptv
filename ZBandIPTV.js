@@ -4,6 +4,7 @@ Macro for controlling a Z-Band IPTV decoder device through the Z-TV server.
 
 https://github.com/vtjoeh/z-band-iptv
 
+v0.1.1
 
 let author = "joehughe" + "@" + "cisco.com"
 */
@@ -11,11 +12,13 @@ let author = "joehughe" + "@" + "cisco.com"
 import xapi from 'xapi';
 
 /* 
-  The below values are overriden by the setting in xConfiguration.SytemUnit.CustomDeviceId, if available.  
+  The below values are overridden by the setting in xConfiguration.SytemUnit.CustomDeviceId, if available.  
   xConfiguration.SytemUnit.CustomDeviceId is limited to 255 characters, so it is recommended to keep common configurations. 
   
   Example: 
   ztv_sn="KN3619D0082877";ztv_user="admin@domain";ztv_pass= "pAssW0rD"; ztv_server="https://ztv.example.com", ztv_hdmi="3", ztv_fav_chan="Favorites"  
+  or just
+  ztv_sn="KN3619D0082877"
 */
 
 const ALLOW_INSECURE_HTTPS = "True"; // "True" or "False" in TEXT FORMAT.  Recommended value is "False".  Server must have a valid certificate trusted by video device.
@@ -31,10 +34,10 @@ let ztv_server = "https://" // Z-Band Z-TV server. Includes https:// at beginnin
 let ztv_hdmi = "3";  // HDMI In on Cisco video device that the Z-TV endpoint decoder connects to. Can also be stored in xConfiguration.SytemUnit.CustomDeviceId.
 // HDMI Input must support HDCP. See: https://roomos.cisco.com/xapi/Configuration.Video.Input.Connector[3].HDCP.Mode/?p=helix_55   
 
-let ztv_fav_chan = ""; // Channel Group that acts as favorites shwon on default page. Up to 10 channels. Can also be stored in xConfiguration.SytemUnit.CustomDeviceId.
+let ztv_fav_chan = ""; // Channel Group that acts as favorites shown on default page. Up to 10 channels. Can also be stored in xConfiguration.SytemUnit.CustomDeviceId.
 
 /* 
-  Below values values on the Navigator panel that are dynamically built.  
+  Below values on the Navigator panel that are dynamically built.  
 */
 
 const panelButtonName = 'TV';
@@ -47,7 +50,7 @@ const pageNameDefault = 'TV'; // Name of the default tab
 
 const channelsPageName = 'All Channels'; // Name of the tab 
 
-const order = 1; // Order shown on touchpanel. Higher shows first relative to other custom buttons. 
+const order = 1; // Order button panel shown on touch panel. Higher shows first relative to other custom buttons. 
 
 const TIMEOUT_HTTP_API_CALL = 3; // timeout for API calls to Z-TV Server in seconds.  Default is 3 seconds. Increase if large latency. 
 
@@ -56,6 +59,8 @@ const LOGIN_FAILURE_RETRY = 30 // in seconds.  If username/password fail, decode
 const TURN_ON_ALLOW_HDCP = true;  // if true, turns on allow HDCP every restart. If 'false', no settings are changed.  
 
 const TURN_ON_HTTP_CLIENT = true; // Every time the macro runs, it turns on the HTTP Client Settings.  Only needed first use or could be done manually. If false, nothing happens. 
+
+const RANDOM_START_RANGE = 15; // In seconds. Start time will be selected randomly not exceeding this value in seconds.  If all video devices restart at the same time the Z-TV server is not overwhelmed with login requests. 
 
 /* 
   Leave below variables as is: 
@@ -79,13 +84,22 @@ let favoriteChannels; // used to hold the favorite channels in memory to rebuild
 
 let ztv_id = ''; // ztv_id will be determined by the ztv_decoder_sn = '';  If ztv_sn is not available, ztv_id can be hard coded here or in xConfiguration.SytemUnit.CustomDeviceId.
 
-let volumeTimer;
+let timerVolume;  // timer for changing volume on the volume button so it can be pressed/released
+
+let timerLoginRetry; // timer 
+
+let timerRenewToken; // timer for the refresh token
 
 let volumeTimerIncrement = 140; // in miliseconds between
 
-updateStatusPage('Starting Macro...');
+const delayMs = Math.random() * RANDOM_START_RANGE * 1000; 
 
-login();
+console.log('Random delay Z-Band controller macro will start in ' + (delayMs / 1000).toFixed(2) + ' seconds' ); 
+
+setTimeout(()=>{
+    updateStatusPage('Starting Macro...');
+    login();
+}, delayMs)
 
 function changeVolume(upDown) {
   if (upDown == 'up') {
@@ -94,7 +108,7 @@ function changeVolume(upDown) {
   else if (upDown == 'down') {
     xapi.Command.Audio.Volume.Decrease();
   }
-  volumeTimer = setTimeout(changeVolume, volumeTimerIncrement, upDown);
+  timerVolume = setTimeout(changeVolume, volumeTimerIncrement, upDown);
 }
 
 async function getConfigIdConfiguration() {
@@ -137,10 +151,11 @@ async function getConfigIdConfiguration() {
 }
 
 function loginRetry(reason) {
+  clearTimeout( timerLoginRetry ); 
   let message = reason + '. Retry in ' + LOGIN_FAILURE_RETRY + ' sec.'
   updateStatusPage(message);
   console.error(message);
-  setTimeout(login, LOGIN_FAILURE_RETRY * 1000);
+  timerLoginRetry = setTimeout(login, LOGIN_FAILURE_RETRY * 1000);
 }
 
 async function login() {
@@ -229,11 +244,11 @@ function renewToken() {
       }
       else {
         // login succeeded
-
-        let timeout = (Number(objToken.secondsToExpire) - 10) * 1000;
-        updateStatusPage('Token refresh successfull.');
-
-        setTimeout(renewToken, timeout);
+        clearTimeout(timerRenewToken); 
+        let timeout = ((Number(objToken.secondsToExpire) - 10) * 1000) - delayMs; // add 10 seoconds + delay Ms to the secondsToExpire to stagger token refreshes 
+        updateStatusPage('Token refresh successfull. Next refresh in ' + (timeout / 1000 / 60).toFixed(0) + " min.");
+ 
+        timerRenewToken = setTimeout(renewToken, timeout);
       }
     } catch (error) {
       loginRetry('Error reading token object');
@@ -731,21 +746,21 @@ function guiEvent(event) {
 
   if (event.WidgetId == 'zband_codec_volume_down') {
     if (event.Type == 'pressed') {
-      clearTimeout(volumeTimer);
+      clearTimeout(timerVolume);
       changeVolume('down');
     }
     else if (event.Type == 'released') {
-      clearTimeout(volumeTimer);
+      clearTimeout(timerVolume);
     }
   }
 
   if (event.WidgetId == 'zband_codec_volume_up') {
     if (event.Type == 'pressed') {
-      clearTimeout(volumeTimer);
+      clearTimeout(timerVolume);
       changeVolume('up');
     }
     else if (event.Type == 'released') {
-      clearTimeout(volumeTimer);
+      clearTimeout(timerVolume);
     }
   }
 
@@ -841,10 +856,16 @@ function turnOnHDCP() {
 function updateStatusPage(text) {
   setTimeout((text) => {
     let time = new Date();
-    let msg = time.toLocaleTimeString() + " - " + text;
+    let newTime = formatTimeStamp(time)
+    let msg = formatTimeStamp(time) + " - " + text;
     console.info(msg);
     xapi.Command.UserInterface.Extensions.Widget.SetValue({ WidgetId: "widget_zband_status", Value: msg });
   }, 1000, text);  // adding some delay so the touchpanel is fully built first. 
+}
+
+function formatTimeStamp(t) {
+  let newTimeString = t.getFullYear() + '-' + (t.getMonth() + 1) + '-' + t.getDate() + ' '  + t.toLocaleTimeString();  
+  return newTimeString;
 }
 
 function panelClicked(event) {
@@ -1025,13 +1046,13 @@ function returnTvPanel(strBuiderChannelRows, strBuilderFavChannels) {
           <WidgetId>widget_299</WidgetId>
           <Name>Last Action:</Name>
           <Type>Text</Type>
-          <Options>size=1;fontSize=normal;align=center</Options>
+          <Options>size=1;fontSize=small;align=center</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_zband_status</WidgetId>
           <Name>&lt;&lt;feedback&gt;&gt;</Name>
           <Type>Text</Type>
-          <Options>size=3;fontSize=normal;align=left</Options>
+          <Options>size=3;fontSize=small;align=left</Options>
         </Widget>
       </Row>
       <Row>
@@ -1040,13 +1061,13 @@ function returnTvPanel(strBuiderChannelRows, strBuilderFavChannels) {
           <WidgetId>widget_142</WidgetId>
           <Name>More Info:</Name>
           <Type>Text</Type>
-          <Options>size=1;fontSize=normal;align=center</Options>
+          <Options>size=1;fontSize=small;align=center</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_zband_lbl_github</WidgetId>
-          <Name>For more info about this macro see: https://github.com/vtjoeh/z-band-iptv</Name>
+          <Name>For more info and license information about this macro see: https://github.com/vtjoeh/z-band-iptv</Name>
           <Type>Text</Type>
-          <Options>size=3;fontSize=normal;align=left</Options>
+          <Options>size=3;fontSize=small;align=left</Options>
         </Widget>
       </Row>
       <Row>
@@ -1055,7 +1076,7 @@ function returnTvPanel(strBuiderChannelRows, strBuilderFavChannels) {
           <WidgetId>widget_140</WidgetId>
           <Name>Decoder Name:</Name>
           <Type>Text</Type>
-          <Options>size=1;fontSize=normal;align=center</Options>
+          <Options>size=1;fontSize=small;align=center</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_lbl_decoder_name</WidgetId>
@@ -1070,7 +1091,7 @@ function returnTvPanel(strBuiderChannelRows, strBuilderFavChannels) {
           <WidgetId>widget_144</WidgetId>
           <Name>Decoder IP:</Name>
           <Type>Text</Type>
-          <Options>size=1;fontSize=normal;align=center</Options>
+          <Options>size=1;fontSize=small;align=center</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_lbl_decoder_iPAddress</WidgetId>
@@ -1085,7 +1106,7 @@ function returnTvPanel(strBuiderChannelRows, strBuilderFavChannels) {
           <WidgetId>widget_145</WidgetId>
           <Name>Decoder Id:</Name>
           <Type>Text</Type>
-          <Options>size=1;fontSize=normal;align=center</Options>
+          <Options>size=1;fontSize=small;align=center</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_lbl_decoder_id</WidgetId>
@@ -1100,7 +1121,7 @@ function returnTvPanel(strBuiderChannelRows, strBuilderFavChannels) {
           <WidgetId>widget_146</WidgetId>
           <Name>Decoder SN:</Name>
           <Type>Text</Type>
-          <Options>size=1;fontSize=normal;align=center</Options>
+          <Options>size=1;fontSize=small;align=center</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_lbl_decoder_sn</WidgetId>
@@ -1115,7 +1136,7 @@ function returnTvPanel(strBuiderChannelRows, strBuilderFavChannels) {
           <WidgetId>widget_148</WidgetId>
           <Name>Decoder Model:</Name>
           <Type>Text</Type>
-          <Options>size=1;fontSize=normal;align=center</Options>
+          <Options>size=1;fontSize=small;align=center</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_lbl_decoder_model</WidgetId>
