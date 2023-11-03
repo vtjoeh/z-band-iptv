@@ -51,13 +51,13 @@ the Cisco video device will not know - but the end user will notice.
 \
 \
 \
-![keys tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/f8773dd1-10a6-4641-924f-083f96dc7fe0)
+![keys](https://github.com/vtjoeh/z-band-iptv/assets/16569532/1d89f076-25fe-47ab-93d2-2d0acbd2983e)
 **Z-Band Remote** panel -> **Keys Tab** 
 \
 \
 \
 \
-![EndPoint tab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/0241c711-6418-4024-93e2-129c42699969)
+![keypad](https://github.com/vtjoeh/z-band-iptv/assets/16569532/22a6ee67-21ab-447b-ae75-299bf4498ed6)
 **Z-Band Remote** panel -> **End-Point tab**
 \
 \
@@ -66,7 +66,7 @@ the Cisco video device will not know - but the end user will notice.
 
 Below is the **Z-Band Remote** panel with the emulated **Full IR Remote** tab in scrollable format. 
 ![Full IR Remote](https://github.com/vtjoeh/z-band-iptv/assets/16569532/dd683075-7328-441a-8efd-f191b32febee)
-![full IR remote 2](https://github.com/vtjoeh/z-band-iptv/assets/16569532/0f65080c-04e8-4b28-9355-22602e8a7bea)
+![fullRemoteDialPad](https://github.com/vtjoeh/z-band-iptv/assets/16569532/88f9e69b-03f6-473d-af4e-dcb5f1eb97b6)
 ![full IR Remote 4](https://github.com/vtjoeh/z-band-iptv/assets/16569532/437c86d6-b6f3-48d8-bd6a-df76f67ded11)
 
 
