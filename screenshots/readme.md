@@ -57,9 +57,9 @@ the Cisco video device will not know - but the end user will notice.
 \
 \
 \
-![keypad](https://github.com/vtjoeh/z-band-iptv/assets/16569532/22a6ee67-21ab-447b-ae75-299bf4498ed6)
+![endpointtab](https://github.com/vtjoeh/z-band-iptv/assets/16569532/1edabba9-8734-410f-8037-bc7fdf628396)
 **Z-Band Remote** panel -> **End-Point tab**
-\
+
 \
 \
 \
