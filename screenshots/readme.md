@@ -67,7 +67,6 @@ the Cisco video device will not know - but the end user will notice.
 Below is the **Z-Band Remote** panel with the emulated **Full IR Remote** tab in scrollable format. 
 ![Full IR Remote](https://github.com/vtjoeh/z-band-iptv/assets/16569532/dd683075-7328-441a-8efd-f191b32febee)
 ![full IR remote 2](https://github.com/vtjoeh/z-band-iptv/assets/16569532/0f65080c-04e8-4b28-9355-22602e8a7bea)
-![full ir remote 3](https://github.com/vtjoeh/z-band-iptv/assets/16569532/b301b1c2-8928-4697-b49c-6c90dfe22aa7)
 ![full IR Remote 4](https://github.com/vtjoeh/z-band-iptv/assets/16569532/437c86d6-b6f3-48d8-bd6a-df76f67ded11)
 
 
