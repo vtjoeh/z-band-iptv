@@ -15,13 +15,13 @@
         <Name>Row</Name>
         <Widget>
           <WidgetId>widget_zband_channel_14_11</WidgetId>
-          <Name>ABC News</Name>
+          <Name>Chan 1</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_zband_channel_4_1</WidgetId>
-          <Name>CBS News</Name>
+          <Name>Chan 2</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
@@ -30,13 +30,13 @@
         <Name>Row</Name>
         <Widget>
           <WidgetId>widget_zband_channel_5_2</WidgetId>
-          <Name>CNN News</Name>
+          <Name>Chan 3</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_zband_channel_3_8</WidgetId>
-          <Name>ESPN</Name>
+          <Name>Chan 4</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
@@ -45,13 +45,13 @@
         <Name>Row</Name>
         <Widget>
           <WidgetId>widget_zband_channel_10_4</WidgetId>
-          <Name>ESPN 2</Name>
+          <Name>Chan 5</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_zband_channel_7_6</WidgetId>
-          <Name>FOX NEWS</Name>
+          <Name>Chan 6</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
@@ -60,13 +60,13 @@
         <Name>Row</Name>
         <Widget>
           <WidgetId>widget_zband_channel_11_7</WidgetId>
-          <Name>FOX Sports</Name>
+          <Name>Chan 7</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
         <Widget>
           <WidgetId>widget_zband_channel_6_3</WidgetId>
-          <Name>NBC News</Name>
+          <Name>Chan 8</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
@@ -75,7 +75,7 @@
         <Name>Row</Name>
         <Widget>
           <WidgetId>widget_zband_channel_9_5</WidgetId>
-          <Name>PBS</Name>
+          <Name>Chan 9</Name>
           <Type>Button</Type>
           <Options>size=2</Options>
         </Widget>
@@ -133,46 +133,10 @@
         </Widget>
       </Row>
       <Row>
-        <Name>Channel 31</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_31_31</WidgetId>
-          <Name>ABC</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
         <Name>Channel 11</Name>
         <Widget>
           <WidgetId>widget_zband_channel_14_11</WidgetId>
-          <Name>ABC News</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 37</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_36_37</WidgetId>
-          <Name>AMC</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 38</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_37_38</WidgetId>
-          <Name>Animal Planet</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 14</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_12_14</WidgetId>
-          <Name>Another News Ch</Name>
+          <Name>Channel 1</Name>
           <Type>Button</Type>
           <Options>size=3</Options>
         </Widget>
@@ -181,70 +145,7 @@
         <Name>Channel 39</Name>
         <Widget>
           <WidgetId>widget_zband_channel_38_39</WidgetId>
-          <Name>BBC America</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 40</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_39_40</WidgetId>
-          <Name>BBC NEWS</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 42</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_41_42</WidgetId>
-          <Name>Bravo</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 32</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_32_32</WidgetId>
-          <Name>CBS</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 1</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_4_1</WidgetId>
-          <Name>CBS News</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 19</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_19_19</WidgetId>
-          <Name>Cheers</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 10</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_46_10</WidgetId>
-          <Name>CiscoTV</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 2</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_5_2</WidgetId>
-          <Name>CNN News</Name>
+          <Name>Channel 2</Name>
           <Type>Button</Type>
           <Options>size=3</Options>
         </Widget>
@@ -253,7 +154,7 @@
         <Name>Channel 8</Name>
         <Widget>
           <WidgetId>widget_zband_channel_3_8</WidgetId>
-          <Name>ESPN</Name>
+          <Name>Channel 3</Name>
           <Type>Button</Type>
           <Options>size=3</Options>
         </Widget>
@@ -262,7 +163,7 @@
         <Name>Channel 4</Name>
         <Widget>
           <WidgetId>widget_zband_channel_10_4</WidgetId>
-          <Name>ESPN 2</Name>
+          <Name>Channel 4</Name>
           <Type>Button</Type>
           <Options>size=3</Options>
         </Widget>
@@ -271,7 +172,7 @@
         <Name>Channel 35</Name>
         <Widget>
           <WidgetId>widget_zband_channel_35_35</WidgetId>
-          <Name>ESPN ACCN</Name>
+          <Name>Channel 5</Name>
           <Type>Button</Type>
           <Options>size=3</Options>
         </Widget>
@@ -280,205 +181,7 @@
         <Name>Channel 33</Name>
         <Widget>
           <WidgetId>widget_zband_channel_33_33</WidgetId>
-          <Name>FOX</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 6</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_7_6</WidgetId>
-          <Name>FOX NEWS</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 7</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_11_7</WidgetId>
-          <Name>FOX Sports</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 16</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_16_16</WidgetId>
-          <Name>Friends Channel</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 18</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_18_18</WidgetId>
-          <Name>Growing Pains</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 12</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_13_12</WidgetId>
-          <Name>Halloween Channel</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 20</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_20_20</WidgetId>
-          <Name>Hill Street Blues</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 30</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_30_30</WidgetId>
-          <Name>Late Night With David Letterman</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 21</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_21_21</WidgetId>
-          <Name>Malcolm In the Middle</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 27</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_27_27</WidgetId>
-          <Name>M-A-S-H</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 22</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_22_22</WidgetId>
-          <Name>Monk</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 34</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_34_34</WidgetId>
-          <Name>NBC</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 3</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_6_3</WidgetId>
-          <Name>NBC News</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 25</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_25_25</WidgetId>
-          <Name>Newhart</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 13</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_8_13</WidgetId>
-          <Name>NEWS, NEWS, NEWS</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 5</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_9_5</WidgetId>
-          <Name>PBS</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 23</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_23_23</WidgetId>
-          <Name>Psych</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 26</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_26_26</WidgetId>
-          <Name>Saturday Night Live</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 24</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_24_24</WidgetId>
-          <Name>Star Trek The Next Generation</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 29</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_29_29</WidgetId>
-          <Name>The Jeffersons</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 28</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_28_28</WidgetId>
-          <Name>Thirtysomething</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 43</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_42_43</WidgetId>
-          <Name>WebexTV</Name>
-          <Type>Button</Type>
-          <Options>size=3</Options>
-        </Widget>
-      </Row>
-      <Row>
-        <Name>Channel 15</Name>
-        <Widget>
-          <WidgetId>widget_zband_channel_15_15</WidgetId>
-          <Name>Z-Channel</Name>
+          <Name>Channel 6</Name>
           <Type>Button</Type>
           <Options>size=3</Options>
         </Widget>
