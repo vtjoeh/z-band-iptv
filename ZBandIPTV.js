@@ -4,7 +4,7 @@ Macro for controlling a Z-Band IPTV decoder device through the Z-TV server.
 
 https://github.com/vtjoeh/z-band-iptv
 
-v0.1.1
+v0.1.2
 
 let author = "joehughe" + "@" + "cisco.com"
 */
@@ -694,12 +694,14 @@ function showHidRemotePanel(visibility) {
     result.Extensions.Panel.forEach((panel) => {
       if (panel.PanelId == ZBAND_PANEL_REMOTE_ID) {
         xapi.Command.UserInterface.Extensions.Panel.Update({ PanelId: ZBAND_PANEL_REMOTE_ID, Location: visibility });
-        return;
+        panelFound = true; 
       }
-    })
-    if (panelFound) {
+    }); 
+
+    if (!panelFound) {
       xapi.Command.UserInterface.Message.Prompt.Display({ Duration: 30, "Option.1": "OK", Text: "for more info see https://github.com/vtjoeh/z-band-iptv", Title: "Z-Band Remote Panel Not Installed" });
     }
+
   })
 }
 
