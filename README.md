@@ -36,7 +36,8 @@ The following additional settings are recommended but not required:
 Several settings *optionally* can be placed directly on the codec in the xConfiguration.SytemUnit.CustomDeviceId setting.  This allows the \
 same macro to be pushed to all Cisco video devices and unique variables pushed through Control Hub. 
 - Web Interface: Settings -> Configurations ->SystemUnit -> CustomDeviceId 
-\ For example: 
+
+For example: 
 > ztv_sn="KN5B0B51M0N5555"; ztv_hdmi="3", ztv_fav_chan="Bobs Favorites"
 
 For more details see the notes in the .js file and the notes with the [screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots). 
