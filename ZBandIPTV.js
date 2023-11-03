@@ -1,12 +1,11 @@
 /*
-
-Macro for controlling a Z-Band IPTV decoder device through the Z-TV server. 
-
-https://github.com/vtjoeh/z-band-iptv
-
-v0.1.2
+Z-Band IPTV - Decoder Control Macro v0.1.2
+Purpose: Macro for controlling a Z-Band IPTV decoder device through the Z-TV server from a Cisco video device.  
 
 let author = "joehughe" + "@" + "cisco.com"
+
+License: MIT LICENSE 
+for more details see: https://github.com/vtjoeh/z-band-iptv
 */
 
 import xapi from 'xapi';
