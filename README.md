@@ -58,3 +58,6 @@ All channels are shown in a scrollable and searchable window.
 \
 See [all screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots) for more details. 
 
+See the article [Configure macros and user interface extensions for Board, Desk, and Room Series](https://help.webex.com/en-us/article/gj962f) for more information on loading macros to the Cisco video device. 
+
+
