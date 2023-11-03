@@ -43,7 +43,7 @@ For example:
 >
 \
 \
-For more details see the notes in the .js file and the notes with the [screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots). 
+For more details see the notes in the .js file and the [screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots) notes. 
  
 \
 \
