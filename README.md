@@ -42,10 +42,8 @@ For example:
 
 \
 \
-\
 For more details see the notes in the .js file and the [screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots) notes. 
  
-\
 \
 \
 ![default page tv 2](https://github.com/vtjoeh/z-band-iptv/assets/16569532/9cc80ecb-af04-4d36-8e10-690f738d2d8b)
