@@ -40,7 +40,7 @@ Web Interface:
 For example: 
 > ztv_sn="KN5B0B51M0N5555"; ztv_hdmi="3", ztv_fav_chan="Bobs Favorites"
 
-For more details see the notes in the .js file. 
+For more details see the notes in the .js file and the notes with the [screenshots](https://github.com/vtjoeh/z-band-iptv/tree/main/screenshots). 
 \
 \
 \
